@@ -1,15 +1,15 @@
 # Chinese translations for PACKAGE package
 # PACKAGE 软件包的简体中文翻译.
-# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2013 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# namiheike <namiheike@gmail.com>, 2012.
+# namiheike <warmsun0220@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-17 21:14+0100\n"
-"PO-Revision-Date: 2012-04-20 18:24+0800\n"
+"POT-Creation-Date: 2012-12-29 22:22+0100\n"
+"PO-Revision-Date: 2013-11-23 15:45+0800\n"
 "Last-Translator: namiheike <namiheike@gmail.com>\n"
 "Language-Team: Chinese (simplified)\n"
 "Language: zh_CN\n"
@@ -17,98 +17,380 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: extension.js:142 extension.js:172
+#: extension.js:197 extension.js:201
+msgid "    - No mouse device detected."
+msgstr "    - 没有检测到鼠标."
+
+#: extension.js:228 extension.js:232
+msgid "No Touchpad detected."
+msgstr "没有检测到触摸板."
+
+#: extension.js:328 extension.js:360
 msgid "Touchpad Indicator"
 msgstr "触摸板指示器"
 
-#: extension.js:487
-msgid "Turn Touchpad On/Off"
-msgstr "打开/关闭触摸板"
+#: extension.js:396
+msgid "Confirm Dialog"
+msgstr "确认对话框"
 
-#: extension.js:489
-msgid "Touchpad"
-msgstr "触摸板"
+#: extension.js:402
+msgid ""
+"Would you really disable this device?\n"
+"There seems to be no other mouse device enabled!"
+msgstr ""
+"你真的想禁用该设备吗？\n"
+"似乎没有其他鼠标设备可以启用"
 
-#: extension.js:491
-msgid "Trackpoint"
-msgstr "指点杆"
+#: extension.js:409
+msgid "Cancel"
+msgstr "取消"
 
-#: extension.js:494
-msgid "Indicatorsettings"
-msgstr "指示器设定"
+#: extension.js:417
+msgid "OK"
+msgstr "确认"
 
-#: extension.js:500
-msgid "Behaviour if a mouse is (un)plugged:"
+#: extension.js:651
+msgid "Undo"
+msgstr "撤销"
+
+#: extension.js:661
+msgid "Welcome"
+msgstr "欢迎"
+
+#: extension.js:662
+msgid ""
+"These settings allow you to customize this extension to your needs. You can "
+"open this dialog again by clicking on the extension's icon and selecting "
+"Indicator Settings.\n"
+"\n"
+"Please feel free to contact me if you find bugs or have suggestions, "
+"criticisms, or feedback. I am always happy to receive feedback - whatever "
+"kind. :-) \n"
+"\n"
+"Contact me on github (https://github.com/orangeshirt/gnome-shell-extension-"
+"touchpad-indicator) or on my bug tracker (https://extensions.gnome.org/"
+"extension/131/touchpad-indicator/)."
+msgstr ""
+
+#: extension.js:668
+msgid "General"
+msgstr "常规"
+
+#: extension.js:669
+msgid "Auto Switch"
+msgstr "自动选择"
+
+#: extension.js:670
+#, fuzzy
+msgid "Define the behaviour if a mouse is (un)plugged."
 msgstr "当有鼠标插入/拔除时:"
 
-#: extension.js:502
-msgid "Automatically switch Touchpad On/Off"
-msgstr "自动关闭/打开触摸板"
+#: extension.js:671
+msgid "Debug"
+msgstr "调试"
 
-#: extension.js:505
+#: extension.js:672
+msgid "Settings for debugging the extension."
+msgstr "扩展调试设置"
+
+#: extension.js:673
+msgid "Debug Log"
+msgstr "调试信息"
+
+#: extension.js:674
+msgid "The debug log since last restart, if debugging is enabled."
+msgstr ""
+
+#: extension.js:873
+msgid "First time startup"
+msgstr "首次启动"
+
+#: extension.js:876
+#, fuzzy
+msgid "Attention - No Touchpad Detected"
+msgstr "没有检测到触摸板."
+
+#: extension.js:877
+msgid ""
+"The extension could not detect a touchpad at the moment.\n"
+"You'll find further information in the Debug section."
+msgstr ""
+
+#: extension.js:887
+msgid "Gconf Settings"
+msgstr "Gconf设置"
+
+#: extension.js:893
+msgid "Synclient"
+msgstr ""
+
+#: extension.js:900
+msgid "Xinput"
+msgstr ""
+
+#: extension.js:906
+msgid "Switch Method"
+msgstr "切换方法"
+
+#: extension.js:906
+msgid "Method by which to switch the touchpad."
+msgstr "控制触摸板启用/禁用的方式"
+
+#: extension.js:914 extension.js:915
+msgid "Restore Defaults"
+msgstr "存为默认设置"
+
+#: extension.js:915
+#, fuzzy
+msgid "Restore the default settings."
+msgstr "存为默认设置"
+
+#: extension.js:923
+msgid "Show Icon in Main Panel"
+msgstr "在主面板上显示图标"
+
+#: extension.js:924
+msgid ""
+"Attention!\n"
+"If you hide the icon in the main panel you could not open this dialog "
+"again.\n"
+"To change settings while the icon is hidden you have to edit the file "
+"'settings.json' in the extension directory manually!"
+msgstr ""
+
+#: extension.js:935
+msgid "Automatically switch Touchpad On/Off"
+msgstr "自动打开和关闭触摸板"
+
+#: extension.js:936
+msgid "Turns the touchpad on or off automatically if a mouse is (un)plugged."
+msgstr "如果鼠标插入时自动启用/禁用触摸板"
+
+#: extension.js:940
 msgid "Automatically switch Trackpoint On/Off"
 msgstr "自动关闭/打开指点杆"
 
-#: extension.js:508
-msgid "Show notification if switched"
-msgstr "切换时显示提示"
+#: extension.js:941
+msgid "Turns trackpoint automatically on or off if a mouse is (un)plugged."
+msgstr "如果鼠标插入时自动启用/禁用指点杆"
 
-#: extension.js:511
-msgid "Touchpadsettings"
-msgstr "触摸板设定"
+#: extension.js:946
+msgid "Show notification"
+msgstr "显示通知"
 
-#: extension.js:512
-msgid "Click to Tap"
-msgstr "启用触摸点击"
+#: extension.js:947
+msgid ""
+"Show notifications if the touchpad or the trackpoint is automatically "
+"switched on or off."
+msgstr "触摸板或指点杆自动启用/禁用时显示通知"
 
-#: extension.js:515
-msgid "Scroll behaviour"
-msgstr "滚动选项"
+#: extension.js:949
+msgid "Exclude mouse device from autodetection"
+msgstr "从自动检测中排除的鼠标设备"
 
-#: extension.js:516
-msgid "Disable scrolling"
-msgstr "关闭滚动"
+#: extension.js:950
+msgid ""
+"Here you can choose some mouse devices to be excluded from autodetection, "
+"like your IR Remote Control or something similar.\n"
+"All chosen devices are ignored."
+msgstr "这里你可以选择一些被自动检测排除的鼠标设备，所有选中的设备均被忽略"
 
-#: extension.js:518
-msgid "Edge scrolling"
-msgstr "边缘滚动"
+#: extension.js:973
+#, fuzzy
+msgid "Debug log"
+msgstr "调试信息"
 
-#: extension.js:521
-msgid "Two Finger scrolling"
-msgstr "双指滚动"
+#: extension.js:973
+msgid "Turns the debug log on or off."
+msgstr "打开或关闭调试信息"
 
-#: extension.js:543
-msgid "Additional Settings ..."
-msgstr "更多设定..."
+#: extension.js:981
+msgid "Write debug information to file."
+msgstr "将调试信息写入文件"
 
-#: extension.js:634
-msgid "Mouse plugged\n"
-msgstr "鼠标插入\n"
+#: extension.js:982
+msgid ""
+"All debug logs are additionally written to the file 'touchpad-indicator.log' "
+"in the extension directory.\n"
+"Attention!\n"
+"This feature will slow down the startup of gnome-shell and the usage of the "
+"extension."
+msgstr ""
 
-#: extension.js:636
-msgid "Mouse unplugged\n"
-msgstr "鼠标拔除\n"
+#: extension.js:1000
+#, fuzzy
+msgid "Warning - No Touchpad Detected"
+msgstr "没有检测到触摸板."
 
-#: extension.js:640
-msgid "Touchpad & Trackpoint enabled"
+#: extension.js:1001
+msgid ""
+"The extension could not detect a touchpad at the moment.\n"
+"Perhaps your touchpad is not detected correctly by the kernel.\n"
+"The following devices are detected as mice:\n"
+msgstr ""
+
+#: extension.js:1004
+msgid "Try to find the touchpad"
+msgstr "尝试找到触摸板"
+
+#: extension.js:1005
+msgid ""
+"You could try to find a possible touchpad.\n"
+"Below you could choose the possible touchpad from the list of the detected "
+"mice. In most cases you should choose the entry 'PS/2 Generic Mouse' if "
+"available.\n"
+"The switch method will be automatically switched to Xinput, because only "
+"with Xinput it is possible to switch an undetected touchpad.\n"
+msgstr ""
+
+#: extension.js:1016
+msgid "Choose possible touchpad"
+msgstr "选择可能的触摸板"
+
+#: extension.js:1017
+msgid "You can choose the mouse entry which could be the touchpad."
+msgstr "你可以选择可能被识别为鼠标的触摸板"
+
+#: extension.js:1034
+msgid "No Xinput installed"
+msgstr ""
+
+#: extension.js:1035
+msgid ""
+"If you install 'xinput' on your pc, the extension could try to switch an "
+"undetected touchpad.\n"
+"Please install 'xinput' and reload gnome-shell to enable this feature."
+msgstr ""
+
+#: extension.js:1039
+msgid "Gnome Shell Version: "
+msgstr "Gnome Shell 版本"
+
+#: extension.js:1041
+#, fuzzy
+msgid "Touchpad Indicator Version: "
+msgstr "触摸板指示器"
+
+#: extension.js:1043
+#, fuzzy
+msgid "Touchpad(s): "
+msgstr "触摸板"
+
+#: extension.js:1044
+msgid "Xinput: "
+msgstr ""
+
+#: extension.js:1046
+msgid "Is installed."
+msgstr ""
+
+#: extension.js:1048
+msgid "Not found on your system."
+msgstr ""
+
+#: extension.js:1050
+msgid "Synclient: "
+msgstr ""
+
+#: extension.js:1052
+msgid "Is installed and in use.\n"
+msgstr ""
+
+#: extension.js:1054
+msgid "Not found or used on your system.\n"
+msgstr ""
+
+#: extension.js:1056
+msgid "Debug Informations"
+msgstr "调试信息"
+
+#: extension.js:1057
+msgid ""
+"Here you find some information about your system which might be helpful in "
+"debugging.\n"
+"\n"
+msgstr ""
+
+#: extension.js:1447
+msgid "Touchpad"
+msgstr "触摸板"
+
+#: extension.js:1449
+msgid "Trackpoint"
+msgstr "指点杆"
+
+#: extension.js:1451
+msgid "Touchscreen"
+msgstr "触摸屏"
+
+#: extension.js:1453
+msgid "Finger touch"
+msgstr ""
+
+#: extension.js:1455
+msgid "Pen"
+msgstr "笔"
+
+#: extension.js:1457
+msgid "Indicator Settings"
+msgstr "指示器设置"
+
+#: extension.js:1471
+msgid "Touchpad Settings"
+msgstr "触摸板设置"
+
+#: extension.js:1669
+msgid "Mouse plugged in - "
+msgstr "外接鼠标插入 - "
+
+#: extension.js:1671
+msgid "Mouse unplugged - "
+msgstr "外接鼠标拔出 - "
+
+#: extension.js:1675
+msgid "touchpad and trackpoint enabled"
 msgstr "触摸板 & 指点杆 已启用"
 
-#: extension.js:642
-msgid "Touchpad & Trackpoint disabled"
+#: extension.js:1677
+msgid "touchpad and trackpoint disabled"
 msgstr "触摸板 & 指点杆 已禁用"
 
-#: extension.js:646
-msgid "Touchpad enabled"
+#: extension.js:1681
+msgid "touchpad enabled"
 msgstr "触摸板 已启用"
 
-#: extension.js:648
-msgid "Touchpad disabled"
+#: extension.js:1683
+msgid "touchpad disabled"
 msgstr "触摸板 已禁用"
 
-#: extension.js:652
-msgid "Trackpoint enabled"
+#: extension.js:1687
+msgid "trackpoint enabled"
 msgstr "指点杆 已启用"
 
-#: extension.js:654
-msgid "Trackpoint disabled"
+#: extension.js:1689
+msgid "trackpoint disabled"
 msgstr "指点杆 已禁用"
+
+#~ msgid "Turn Touchpad On/Off"
+#~ msgstr "打开/关闭触摸板"
+
+#~ msgid "Show notification if switched"
+#~ msgstr "切换时显示提示"
+
+#~ msgid "Click to Tap"
+#~ msgstr "启用触摸点击"
+
+#~ msgid "Scroll behaviour"
+#~ msgstr "滚动选项"
+
+#~ msgid "Disable scrolling"
+#~ msgstr "关闭滚动"
+
+#~ msgid "Edge scrolling"
+#~ msgstr "边缘滚动"
+
+#~ msgid "Two Finger scrolling"
+#~ msgstr "双指滚动"
+
+#~ msgid "Additional Settings ..."
+#~ msgstr "更多设定..."
